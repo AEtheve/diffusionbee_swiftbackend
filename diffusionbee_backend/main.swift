@@ -115,11 +115,6 @@ struct DiffusionBee {
         let config = MLModelConfiguration()
 
         print("sdbk mltl Loading Model")
-            
-//            for i in 0...100 {
-//                print("sdbk mlpr \(i)" ) // model loading percentage
-//                print("sdbk mlms done \(i) of 100.0")
-//            }
         
         let resourceURL = URL(filePath: resourcePath)
         let computeUnits: MLComputeUnits = .cpuAndNeuralEngine
